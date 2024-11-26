@@ -2,8 +2,6 @@ import { useState, useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { AdminAuthenticationContext } from "../../contexts/AdminAuthentication";
-import Login from "../../pages/Login";
-import { products } from "../../data";
 import { DealerAuthenticationContext } from "../../contexts/DealerAuthentication";
 function App() {
   const [toggleMenu, setToggleMenu] = useState(false);

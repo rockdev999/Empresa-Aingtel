@@ -11,8 +11,6 @@ import About from "./pages/About";
 import Login from "./pages/Login";
 import ProductsCards from "./pages/ProductsCards";
 import Quoter from "./pages/Quoter";
-import AdditionalData from "./pages/AdditionalData";
-import QuotesList from "./pages/QuotesList";
 import { AdminAuthenticationProvider } from "./contexts/AdminAuthentication";
 import { DealerAuthenticationProvider } from "./contexts/DealerAuthentication";
 function App() {
@@ -38,8 +36,6 @@ function App() {
                 <Route path="/list-dealers" element={<ListDealers />} />
 
                 <Route path="/quoter" element={<Quoter />} />
-                <Route path="/additional-data" element={<AdditionalData />} />
-                <Route path="/quotes-list" element={<QuotesList />} />
               </Routes>
             </div>
           </DealerAuthenticationProvider>
